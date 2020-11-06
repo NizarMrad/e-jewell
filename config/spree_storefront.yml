@@ -12,18 +12,16 @@ default:
           :url: /t/colliers/diamant
         - :title: Emeraude
           :url: /t/colliers/emeraude
-        - :title: Nouvelle collection
-          :url: /t/colliers/nouvelle-collection
         - :title: Autres
           :url: /t/colliers/autres
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/nouvelle-collection/hiver-2020
+          url: /t/collection/hiver-2020
           image: "meganav/promo_banner_left-first-category.jpg"
         - subtitle: Offres spéciales
-          title: Jusqu'à 30 % de remises !
-          url: /t/outlet/30-pourcents-remises
+          title: Jusqu'à 15 % de remises !
+          url: /t/outlet/15-pourcents-de-remises
           image: "meganav/promo_banner_right-first-category.jpg"
     - title: Bagues
       subtitle: Categories
@@ -31,40 +29,59 @@ default:
       items:
         - :title: Or
           :url: /t/bagues/or
+        - :title: Or blanc
+          :url: /t/bagues/or-blanc
+        - :title: Or rose
+          :url: /t/bagues/or-rose
         - :title: Argent
           :url: /t/bagues/argent
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/nouvelle-collection/hiver-2020
+          url: /t/collection/hiver-2020
           image: "meganav/promo_banner_left-second-category.jpg"
         - subtitle: Offres spéciales
-          title: Jusqu'à 30 % de remises !
-          url: /t/outlet/30-pourcents-remises
+          title: Jusqu'à 15 % de remises !
+          url: /t/outlet/15-pourcents-de-remises
           image: "meganav/promo_banner_right-second-category.jpg"
-    - title: Nouvelle collection
+    - title: Collection
       subtitle: Categories
-      url: /t/nouvelle-collection
+      url: /t/collection
       items:
+        - :title: Peace and love
+          :url: /t/collection/peace-and-love
+        - :title: Flower
+          :url: /t/collection/flower
+        - :title: Ocean
+          :url: /t/collection/ocean
         - :title: Hiver 2020
-          :url: /t/nouvelle-collection/hiver-2020
+          :url: /t/collection/hiver-2020
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/nouvelle-collection/hiver-2020
+          url: /t/collection/hiver-2020
           image: "meganav/promo_banner_left-third-category.jpg"
         - subtitle: Offres spéciales
           title: Jusqu'à 15 % de remises !
-          url: /t/nouvelle-collection/offre-spéciale
+          url: /t/outlet/15-pourcents-de-remises
           image: "meganav/promo_banner_right-third-category.jpg"
     - title: Outlet
       subtitle: Categories
       url: /t/outlet
       items:
-        - :title: 30 % de remises
+        - :title: Jusqu'à 30 % de remises
           :url: /t/outlet/30-pourcents-de-remises
-        - :title: 50 % de remises
+        - :title: Jusqu'à 50 % de remises
           :url: /t/tendances/50-pourcents-de-remises
+      promo_banners:
+        - subtitle: Nouvelle collection
+          title: Hiver 2020
+          url: /t/collection/hiver-2020
+          image: "meganav/promo_banner_left-third-category.jpg"
+        - subtitle: Offres spéciales
+          title: Jusqu'à 15 % de remises !
+          url: /t/outlet/offre-spéciale
+          image: "meganav/promo_banner_right-third-category.jpg"
     - title: Tendances
       subtitle: Categories
       url: /t/tendances
@@ -73,5 +90,12 @@ default:
           :url: /t/tendances/pour-elle
         - :title: Pour lui
           :url: /t/tendances/pour-lui
-        - :title: Pants
-          :url: /t/tendances/pants
+      promo_banners:
+        - subtitle: Nouvelle collection
+          title: Hiver 2020
+          url: /t/collection/hiver-2020
+          image: "meganav/promo_banner_left-third-category.jpg"
+        - subtitle: Offres spéciales
+          title: Jusqu'à 15 % de remises !
+          url: /t/outlet/offre-spéciale
+          image: "meganav/promo_banner_right-third-category.jpg"
