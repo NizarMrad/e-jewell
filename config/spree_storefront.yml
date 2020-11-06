@@ -74,14 +74,37 @@ default:
         - :title: Jusqu'à 50 % de remises
           :url: /t/tendances/50-pourcents-de-remises
       promo_banners:
-        - subtitle: Nouvelle collection
-          title: Hiver 2020
+        - subtitle: Trouvez la perle rare
+          title: Bon plans
           url: /t/collection/hiver-2020
-          image: "meganav/promo_banner_left-third-category.jpg"
-        - subtitle: Offres spéciales
-          title: Jusqu'à 15 % de remises !
+          image: "meganav/promo_banner_left-forth-category.jpg"
+        - subtitle: Les supers promo
+          title: Jusqu'à 50 % de remises !
           url: /t/outlet/offre-spéciale
-          image: "meganav/promo_banner_right-third-category.jpg"
+          image: "meganav/promo_banner_right-forth-category.jpg"
+    - title: Cadeaux
+      subtitle: Categories
+      url: /t/cadeaux
+      items:
+        - :title: Carte cadeaux
+          :url: /cadeaux/carte-cadeaux
+        - :title: Bijoux personnalisé
+          :url: /t/cadeaux/bijoux-personnalise
+        - :title: Pour lui
+          :url: /t/cadeaux/pour-lui
+        - :title: Pour elle
+          :url: /t/cadeaux/pour-elle
+        - :title: Pour couple
+          :url: /t/cadeaux/pour-couple
+      promo_banners:
+        - subtitle: Trouvez le cadeaux idéale
+          title: Best-seller
+          url: /t/cadeaux
+          image: "meganav/promo_banner_left-fifth-category.jpg"
+        - subtitle: Les supers promo
+          title: Jusqu'à 50 % de remises !
+          url: /t/outlet/50-pourcents-de-remise
+          image: "meganav/promo_banner_right-fifth-category.jpg"
     - title: Tendances
       subtitle: Categories
       url: /t/tendances
@@ -94,8 +117,8 @@ default:
         - subtitle: Nouvelle collection
           title: Hiver 2020
           url: /t/collection/hiver-2020
-          image: "meganav/promo_banner_left-third-category.jpg"
+          image: "meganav/promo_banner_left-sixth-category.jpg"
         - subtitle: Offres spéciales
           title: Jusqu'à 15 % de remises !
           url: /t/outlet/offre-spéciale
-          image: "meganav/promo_banner_right-third-category.jpg"
+          image: "meganav/promo_banner_right-sixth-category.jpg"
