@@ -1,0 +1,27 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+
+ *= require_self
+ *= require_tree .
+*/
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: #000;
+  border-radius: 50%;
+  display: none;
+  z-index: 3;
+  cursor: pointer;
+  width: 31px;
+  height: 31px;
+}
+.go-top:hover {
+  background-color: #8e6c4d;
+  color: #fff !important;
+}
