@@ -4,11 +4,11 @@
   <img class="lazyload hero-image position-absolute"
     data-src="<%= asset_path('homepage/main_banner.jpg') %>"
     data-srcset="<%= image_source_set('homepage/main_banner') %>"
-    alt="<%= Spree.t('homepage.summer_collection')%>" />
+    alt="<%= Spree.t('homepage.collection_hiver')%>" />
 
   <div class="hero-content">
     <div class="homepage-hero-image-text mb-2 mx-auto pb-3 pb-md-4">
-      <%= Spree.t('homepage.summer_collection') %>
+      <%= Spree.t('homepage.collection_hiver') %>
     </div>
     <div>
       <%= link_to Spree.t('homepage.achetez_maintenant'), spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
@@ -51,14 +51,14 @@
     <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('women') do %>
+        <%= link_to spree.nested_taxons_path('colliers') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-            alt="<%= Spree.t('homepage.women')%>" />
+            alt="<%= Spree.t('homepage.colliers')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.women') %></h3>
+            <h3><%= Spree.t('homepage.colliers') %>test</h3>
           </div>
         <% end %>
       </div>
