@@ -103,7 +103,7 @@ default:
           image: "meganav/promo_banner_left-fifth-category.jpg"
         - subtitle: Les supers promo
           title: Jusqu'à 50 % de remises !
-          url: /t/outlet/50-pourcents-de-remises
+          url: /t/categories/outlet/50-pourcents-de-remises
           image: "meganav/promo_banner_right-fifth-category.jpg"
     - title: Tendances
       subtitle: Categories
