@@ -25,24 +25,24 @@ default:
           image: "meganav/promo_banner_right-first-category.jpg"
     - title: Bagues
       subtitle: Categories
-      url: /t/bagues
+      url: /t/categories/bagues
       items:
         - :title: Or
-          :url: /t/bagues/or
+          :url: /t/categories/bagues/or
         - :title: Or blanc
-          :url: /t/bagues/or-blanc
+          :url: /t/categories/bagues/or-blanc
         - :title: Or rose
-          :url: /t/bagues/or-rose
+          :url: /t/categories/bagues/or-rose
         - :title: Argent
-          :url: /t/bagues/argent
+          :url: /t/categories/bagues/argent
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/collection/hiver-2020
+          url: /t/categories/collection/hiver-2020
           image: "meganav/promo_banner_left-second-category.jpg"
         - subtitle: Offres spéciales
           title: Jusqu'à 15 % de remises !
-          url: /t/outlet/15-pourcents-de-remises
+          url: /t/categories/outlet/15-pourcents-de-remises
           image: "meganav/promo_banner_right-second-category.jpg"
     - title: Collection
       subtitle: Categories
@@ -59,11 +59,11 @@ default:
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/collection/hiver-2020
+          url: /t/categories/collection/hiver-2020
           image: "meganav/promo_banner_left-third-category.jpg"
         - subtitle: Offres spéciales
           title: Jusqu'à 15 % de remises !
-          url: /t/outlet/15-pourcents-de-remises
+          url: /t/categories/outlet/15-pourcents-de-remises
           image: "meganav/promo_banner_right-third-category.jpg"
     - title: Outlet
       subtitle: Categories
@@ -76,26 +76,26 @@ default:
       promo_banners:
         - subtitle: Trouvez la perle rare
           title: Bon plans
-          url: /t/collection/hiver-2020
+          url: /t/categories/collection/hiver-2020
           image: "meganav/promo_banner_left-forth-category.jpg"
         - subtitle: Les supers promo
           title: Jusqu'à 50 % de remises !
-          url: /t/outlet/offre-spéciale
+          url: /t/categories/outlet/offre-spéciale
           image: "meganav/promo_banner_right-forth-category.jpg"
     - title: Cadeaux
       subtitle: Categories
-      url: /t/cadeaux
+      url: /t/categories/cadeaux
       items:
         - :title: Carte cadeaux
-          :url: /cadeaux/carte-cadeaux
+          :url: /categories/cadeaux/carte-cadeaux
         - :title: Bijoux personnalisé
-          :url: /t/cadeaux/bijoux-personnalise
+          :url: /t/categories/cadeaux/bijoux-personnalise
         - :title: Pour lui
-          :url: /t/cadeaux/pour-lui
+          :url: /t/categories/cadeaux/pour-lui
         - :title: Pour elle
-          :url: /t/cadeaux/pour-elle
+          :url: /t/categories/cadeaux/pour-elle
         - :title: Pour couple
-          :url: /t/cadeaux/pour-couple
+          :url: /t/categories/cadeaux/pour-couple
       promo_banners:
         - subtitle: Trouvez le cadeaux idéale
           title: Best-seller
@@ -107,18 +107,18 @@ default:
           image: "meganav/promo_banner_right-fifth-category.jpg"
     - title: Tendances
       subtitle: Categories
-      url: /t/tendances
+      url: /t/categories/tendances
       items:
         - :title: Pour elle
-          :url: /t/tendances/pour-elle
+          :url: /t/categories/tendances/pour-elle
         - :title: Pour lui
-          :url: /t/tendances/pour-lui
+          :url: /t/categories/tendances/pour-lui
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
-          url: /t/collection/hiver-2020
+          url: /t/categories/collection/hiver-2020
           image: "meganav/promo_banner_left-sixth-category.jpg"
         - subtitle: Offres spéciales
           title: Jusqu'à 15 % de remises !
-          url: /t/outlet/offre-spéciale
+          url: /t/categories/outlet/offre-spéciale
           image: "meganav/promo_banner_right-sixth-category.jpg"
