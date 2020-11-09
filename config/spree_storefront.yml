@@ -2,18 +2,18 @@ default:
   navigation:
     - title: Colliers
       subtitle: Categories
-      url: /t/colliers
+      url: /t/categories/colliers
       items:
         - :title: Or
-          :url: /t/colliers/or
+          :url: /t/categories/colliers/or
         - :title: Argent
-          :url: /t/colliers/argent
+          :url: /t/categories/colliers/argent
         - :title: Diamant
-          :url: /t/colliers/diamant
+          :url: /t/categories/colliers/diamant
         - :title: Emeraude
-          :url: /t/colliers/emeraude
+          :url: /t/categories/colliers/emeraude
         - :title: Autres
-          :url: /t/colliers/autres
+          :url: /t/categories/colliers/autres
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
@@ -46,16 +46,16 @@ default:
           image: "meganav/promo_banner_right-second-category.jpg"
     - title: Collection
       subtitle: Categories
-      url: /t/collection
+      url: /t/categories/collection
       items:
         - :title: Peace and love
-          :url: /t/collection/peace-and-love
+          :url: /t/categories/collection/peace-and-love
         - :title: Flower
-          :url: /t/collection/flower
+          :url: /t/categories/collection/flower
         - :title: Ocean
-          :url: /t/collection/ocean
+          :url: /t/categories/collection/ocean
         - :title: Hiver 2020
-          :url: /t/collection/hiver-2020
+          :url: /t/categories/collection/hiver-2020
       promo_banners:
         - subtitle: Nouvelle collection
           title: Hiver 2020
@@ -67,12 +67,12 @@ default:
           image: "meganav/promo_banner_right-third-category.jpg"
     - title: Outlet
       subtitle: Categories
-      url: /t/outlet
+      url: /t/categories/outlet
       items:
         - :title: Jusqu'à 30 % de remises
-          :url: /t/outlet/30-pourcents-de-remises
+          :url: /t/categories/outlet/30-pourcents-de-remises
         - :title: Jusqu'à 50 % de remises
-          :url: /t/tendances/50-pourcents-de-remises
+          :url: /t/categories/outlet/50-pourcents-de-remises
       promo_banners:
         - subtitle: Trouvez la perle rare
           title: Bon plans
@@ -103,7 +103,7 @@ default:
           image: "meganav/promo_banner_left-fifth-category.jpg"
         - subtitle: Les supers promo
           title: Jusqu'à 50 % de remises !
-          url: /t/outlet/50-pourcents-de-remise
+          url: /t/outlet/50-pourcents-de-remises
           image: "meganav/promo_banner_right-fifth-category.jpg"
     - title: Tendances
       subtitle: Categories
