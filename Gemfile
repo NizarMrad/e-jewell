@@ -53,6 +53,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.2'
 gem 'spree_gateway', '~> 3.9'
+
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+
+gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
