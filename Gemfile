@@ -66,3 +66,5 @@ gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
 gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
